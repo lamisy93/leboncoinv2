@@ -1,0 +1,34 @@
+.adcard {
+    display: flex;
+    width: 1000px;
+    border: solid 1px rgb(246, 240, 246);
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.adcard:hover {
+    background-color: lightgray;
+}
+
+.adcard_content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    flex: 1;
+}
+
+.adcard_content span {
+    margin-bottom: 10px;
+}
+
+.adcard img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.adcard_row {
+    display: flex;
+    justify-content: space-between;
+}
